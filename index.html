@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>771 | Abrir FF & FF MAX</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    background: #000;
+    color: #00ff66;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 15px;
+    background: #111;
+    color: #00ff66;
+    font-size: 18px;
+    border: 2px solid #00ff66;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #00ff66;
+    color: #000;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 30px;
+    color: #ccc;
+  }
+</style>
+</head>
+<body>
+
+<h1>771</h1>
+
+<button onclick="abrirFreeFire()">Abrir Free Fire</button>
+<button onclick="abrirFreeFireMax()">Abrir Free Fire MAX</button>
+
+<p>
+  Se o jogo não abrir automaticamente,<br>
+  toque e segure no botão e escolha **Abrir**.
+</p>
+
+<script>
+function abrirFreeFire() {
+  // Link universal para Free Fire iOS
+  window.location = "https://apps.apple.com/app/free-fire/id1300146617";
+}
+
+function abrirFreeFireMax() {
+  // Link universal para Free Fire MAX iOS
+  window.location = "https://apps.apple.com/app/free-fire-max/id1485272786";
+}
+</script>
+
+</body>
+</html>
